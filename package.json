@@ -1,6 +1,6 @@
 {
   "name": "@mikeygough/deck-of-cards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a JS library for a deck of cards",
   "main": "dist/bundle.umd.js",
   "module": "dist/bundle.esm.js",

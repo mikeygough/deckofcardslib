@@ -1,8 +1,8 @@
 # deck-of-cards
 
-![npm bundle size](https://img.shields.io/bundlephobia/min/%40mikeygough%2Fdatelib)
+![npm bundle size](https://img.shields.io/bundlephobia/min/%40mikeygough%2Fdeck-of-cards)
 
-![NPM Version](https://img.shields.io/npm/v/%40mikeygough%2Fdatelib)
+![NPM Version](https://img.shields.io/npm/v/%40mikeygough%2Fdeck-of-cards)
 
 deckofcardslib is a JS library for a deck of cards.
 
