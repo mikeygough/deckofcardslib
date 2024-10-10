@@ -19,19 +19,10 @@ class Card implements ICard {
     this._value = value;
 
     // set color
-    switch (this._suit) {
-      case 'Spade':
-        this._color = 'Black';
-        break;
-      case 'Club':
-        this._color = 'Black';
-        break;
-      case 'Heart':
-        this._color = 'Red';
-        break;
-      case 'Diamond':
-        this._color = 'Red';
-        break;
+    if (this._suit === 'Spade' || this._suit === 'Club') {
+      this._color = 'Black';
+    } else if (this._suit === 'Heart' || this._suit === 'Diamond') {
+      this._color = 'Red';
     }
 
     // set numeric_value
@@ -103,7 +94,7 @@ class DeckOfCards {
     }
   }
 
-  to_s() {
+  toString() {
     return `${this._cards}`;
   }
 
