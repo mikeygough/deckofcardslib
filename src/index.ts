@@ -198,6 +198,13 @@ class DeckOfCards {
   reveal() {
     console.log(this._cards[0]);
   }
+
+  /**
+   * Returns the number of cards remaining in the deck.
+   */
+  get size(): number {
+    return this._cards.length;
+  }
 }
 
 export { Card, DeckOfCards };

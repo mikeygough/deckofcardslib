@@ -185,6 +185,16 @@ var DeckOfCards = /** @class */ (function () {
     DeckOfCards.prototype.reveal = function () {
         console.log(this._cards[0]);
     };
+    Object.defineProperty(DeckOfCards.prototype, "size", {
+        /**
+         * Returns the number of cards remaining in the deck.
+         */
+        get: function () {
+            return this._cards.length;
+        },
+        enumerable: false,
+        configurable: true
+    });
     return DeckOfCards;
 }());
 exports.DeckOfCards = DeckOfCards;

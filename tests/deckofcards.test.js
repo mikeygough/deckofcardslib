@@ -56,4 +56,9 @@ describe('DeckOfCards Class', () => {
     deck.reveal();
     expect(console.log).toHaveBeenCalledWith(topCard);
   });
+
+  test('should return the correct number of cards in the deck', () => {
+    const deck = new DeckOfCards();
+    expect(deck.size).toBe(52);
+  });
 });

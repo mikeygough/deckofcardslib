@@ -10,7 +10,7 @@ values for each card are set in `utils.ts`. please note that order matters when 
 
 ### Test App
 
-TBD
+a test app is built right into this module! simply open up the index.html in live-server to view functionality.
 
 ### Description
 
